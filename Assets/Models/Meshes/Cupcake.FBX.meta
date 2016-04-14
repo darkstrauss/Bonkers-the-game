@@ -1,0 +1,432 @@
+fileFormatVersion: 2
+guid: 9a50eec8753fa7646bf87dffdf5c9cf8
+timeCreated: 1453722529
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Bone001
+    100002: Bone002
+    100004: Bone003
+    100006: Bone004
+    100008: Bone007
+    100010: Bone012
+    100012: Bone014
+    100014: Bone015
+    100016: Bone016
+    100018: Bone017
+    100020: Bone018
+    100022: Box001
+    100024: Cherry
+    100026: //RootNode
+    400000: Bone001
+    400002: Bone002
+    400004: Bone003
+    400006: Bone004
+    400008: Bone007
+    400010: Bone012
+    400012: Bone014
+    400014: Bone015
+    400016: Bone016
+    400018: Bone017
+    400020: Bone018
+    400022: Box001
+    400024: Cherry
+    400026: //RootNode
+    4300000: Box001
+    7400000: Idle
+    7400002: Attack1
+    7400004: Attack2
+    7400006: Hit
+    7400008: Die
+    7400010: Walking
+    9500000: //RootNode
+    13700000: Box001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone012
+        weight: 1
+      - path: Bone018
+        weight: 1
+      - path: Bone018/Bone001
+        weight: 1
+      - path: Bone018/Bone001/Bone002
+        weight: 1
+      - path: Bone018/Bone001/Bone007
+        weight: 1
+      - path: Bone018/Bone003
+        weight: 1
+      - path: Bone018/Bone003/Bone004
+        weight: 1
+      - path: Bone018/Bone003/Bone014
+        weight: 1
+      - path: Bone018/Bone003/Bone014/Bone015
+        weight: 1
+      - path: Bone018/Bone003/Bone016
+        weight: 1
+      - path: Bone018/Bone003/Bone016/Bone017
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: Cherry
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack1
+      takeName: Take 001
+      firstFrame: 41
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone012
+        weight: 1
+      - path: Bone018
+        weight: 1
+      - path: Bone018/Bone001
+        weight: 1
+      - path: Bone018/Bone001/Bone002
+        weight: 1
+      - path: Bone018/Bone001/Bone007
+        weight: 1
+      - path: Bone018/Bone003
+        weight: 1
+      - path: Bone018/Bone003/Bone004
+        weight: 1
+      - path: Bone018/Bone003/Bone014
+        weight: 1
+      - path: Bone018/Bone003/Bone014/Bone015
+        weight: 1
+      - path: Bone018/Bone003/Bone016
+        weight: 1
+      - path: Bone018/Bone003/Bone016/Bone017
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: Cherry
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack2
+      takeName: Take 001
+      firstFrame: 110
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone012
+        weight: 1
+      - path: Bone018
+        weight: 1
+      - path: Bone018/Bone001
+        weight: 1
+      - path: Bone018/Bone001/Bone002
+        weight: 1
+      - path: Bone018/Bone001/Bone007
+        weight: 1
+      - path: Bone018/Bone003
+        weight: 1
+      - path: Bone018/Bone003/Bone004
+        weight: 1
+      - path: Bone018/Bone003/Bone014
+        weight: 1
+      - path: Bone018/Bone003/Bone014/Bone015
+        weight: 1
+      - path: Bone018/Bone003/Bone016
+        weight: 1
+      - path: Bone018/Bone003/Bone016/Bone017
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: Cherry
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Hit
+      takeName: Take 001
+      firstFrame: 201
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone012
+        weight: 1
+      - path: Bone018
+        weight: 1
+      - path: Bone018/Bone001
+        weight: 1
+      - path: Bone018/Bone001/Bone002
+        weight: 1
+      - path: Bone018/Bone001/Bone007
+        weight: 1
+      - path: Bone018/Bone003
+        weight: 1
+      - path: Bone018/Bone003/Bone004
+        weight: 1
+      - path: Bone018/Bone003/Bone014
+        weight: 1
+      - path: Bone018/Bone003/Bone014/Bone015
+        weight: 1
+      - path: Bone018/Bone003/Bone016
+        weight: 1
+      - path: Bone018/Bone003/Bone016/Bone017
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: Cherry
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Die
+      takeName: Take 001
+      firstFrame: 240
+      lastFrame: 280
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone012
+        weight: 1
+      - path: Bone018
+        weight: 1
+      - path: Bone018/Bone001
+        weight: 1
+      - path: Bone018/Bone001/Bone002
+        weight: 1
+      - path: Bone018/Bone001/Bone007
+        weight: 1
+      - path: Bone018/Bone003
+        weight: 1
+      - path: Bone018/Bone003/Bone004
+        weight: 1
+      - path: Bone018/Bone003/Bone014
+        weight: 1
+      - path: Bone018/Bone003/Bone014/Bone015
+        weight: 1
+      - path: Bone018/Bone003/Bone016
+        weight: 1
+      - path: Bone018/Bone003/Bone016/Bone017
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: Cherry
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walking
+      takeName: Take 001
+      firstFrame: 300
+      lastFrame: 320
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone012
+        weight: 1
+      - path: Bone018
+        weight: 1
+      - path: Bone018/Bone001
+        weight: 1
+      - path: Bone018/Bone001/Bone002
+        weight: 1
+      - path: Bone018/Bone001/Bone007
+        weight: 1
+      - path: Bone018/Bone003
+        weight: 1
+      - path: Bone018/Bone003/Bone004
+        weight: 1
+      - path: Bone018/Bone003/Bone014
+        weight: 1
+      - path: Bone018/Bone003/Bone014/Bone015
+        weight: 1
+      - path: Bone018/Bone003/Bone016
+        weight: 1
+      - path: Bone018/Bone003/Bone016/Bone017
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: Cherry
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

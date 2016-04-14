@@ -1,0 +1,629 @@
+fileFormatVersion: 2
+guid: 21fbdee14225fb444b97462a1a133d52
+timeCreated: 1453718622
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: ArmL00
+    100002: ArmL01
+    100004: ArmL02
+    100006: ArmL03
+    100008: ArmL04
+    100010: ArmL05
+    100012: ArmL06
+    100014: ArmL07
+    100016: ArmL08
+    100018: ArmL09
+    100020: ArmL10
+    100022: ArmL11
+    100024: ArmL12
+    100026: ArmL13
+    100028: ArmL14
+    100030: ArmL15
+    100032: ArmR00
+    100034: ArmR01
+    100036: ArmR02
+    100038: ArmR03
+    100040: ArmR04
+    100042: Cylinder001
+    100044: //RootNode
+    100046: Glasses
+    100048: Hat
+    100050: LegL00
+    100052: LegL01
+    100054: LegL02
+    100056: LegL03
+    100058: LegR00
+    100060: LegR01
+    100062: LegR02
+    100064: LegR03
+    100066: Spine
+    100068: Stache
+    400000: ArmL00
+    400002: ArmL01
+    400004: ArmL02
+    400006: ArmL03
+    400008: ArmL04
+    400010: ArmL05
+    400012: ArmL06
+    400014: ArmL07
+    400016: ArmL08
+    400018: ArmL09
+    400020: ArmL10
+    400022: ArmL11
+    400024: ArmL12
+    400026: ArmL13
+    400028: ArmL14
+    400030: ArmL15
+    400032: ArmR00
+    400034: ArmR01
+    400036: ArmR02
+    400038: ArmR03
+    400040: ArmR04
+    400042: Cylinder001
+    400044: //RootNode
+    400046: Glasses
+    400048: Hat
+    400050: LegL00
+    400052: LegL01
+    400054: LegL02
+    400056: LegL03
+    400058: LegR00
+    400060: LegR01
+    400062: LegR02
+    400064: LegR03
+    400066: Spine
+    400068: Stache
+    4300000: Cylinder001
+    7400000: Idle
+    7400002: Walking
+    7400004: Attack1
+    7400006: Hit
+    7400008: Die
+    9500000: //RootNode
+    13700000: Cylinder001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylinder001
+        weight: 1
+      - path: Glasses
+        weight: 1
+      - path: Hat
+        weight: 1
+      - path: Spine
+        weight: 1
+      - path: Spine/ArmL00
+        weight: 1
+      - path: Spine/ArmL00/ArmL01
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL04
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL04/ArmL05
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL04/ArmL05/ArmL06
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL07
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL07/ArmL08
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL07/ArmL08/ArmL09
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL10
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL10/ArmL11
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL10/ArmL11/ArmL12
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL13
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL13/ArmL14
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL13/ArmL14/ArmL15
+        weight: 1
+      - path: Spine/ArmR00
+        weight: 1
+      - path: Spine/ArmR00/ArmR01
+        weight: 1
+      - path: Spine/ArmR00/ArmR01/ArmR02
+        weight: 1
+      - path: Spine/ArmR00/ArmR01/ArmR02/ArmR03
+        weight: 1
+      - path: Spine/ArmR00/ArmR01/ArmR02/ArmR03/ArmR04
+        weight: 1
+      - path: Spine/LegL00
+        weight: 1
+      - path: Spine/LegL00/LegL01
+        weight: 1
+      - path: Spine/LegL00/LegL01/LegL02
+        weight: 1
+      - path: Spine/LegL00/LegL01/LegL02/LegL03
+        weight: 1
+      - path: Spine/LegR00
+        weight: 1
+      - path: Spine/LegR00/LegR01
+        weight: 1
+      - path: Spine/LegR00/LegR01/LegR02
+        weight: 1
+      - path: Spine/LegR00/LegR01/LegR02/LegR03
+        weight: 1
+      - path: Spine/Stache
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walking
+      takeName: Take 001
+      firstFrame: 80
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylinder001
+        weight: 1
+      - path: Glasses
+        weight: 1
+      - path: Hat
+        weight: 1
+      - path: Spine
+        weight: 1
+      - path: Spine/ArmL00
+        weight: 1
+      - path: Spine/ArmL00/ArmL01
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL04
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL04/ArmL05
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL04/ArmL05/ArmL06
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL07
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL07/ArmL08
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL07/ArmL08/ArmL09
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL10
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL10/ArmL11
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL10/ArmL11/ArmL12
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL13
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL13/ArmL14
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL13/ArmL14/ArmL15
+        weight: 1
+      - path: Spine/ArmR00
+        weight: 1
+      - path: Spine/ArmR00/ArmR01
+        weight: 1
+      - path: Spine/ArmR00/ArmR01/ArmR02
+        weight: 1
+      - path: Spine/ArmR00/ArmR01/ArmR02/ArmR03
+        weight: 1
+      - path: Spine/ArmR00/ArmR01/ArmR02/ArmR03/ArmR04
+        weight: 1
+      - path: Spine/LegL00
+        weight: 1
+      - path: Spine/LegL00/LegL01
+        weight: 1
+      - path: Spine/LegL00/LegL01/LegL02
+        weight: 1
+      - path: Spine/LegL00/LegL01/LegL02/LegL03
+        weight: 1
+      - path: Spine/LegR00
+        weight: 1
+      - path: Spine/LegR00/LegR01
+        weight: 1
+      - path: Spine/LegR00/LegR01/LegR02
+        weight: 1
+      - path: Spine/LegR00/LegR01/LegR02/LegR03
+        weight: 1
+      - path: Spine/Stache
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack1
+      takeName: Take 001
+      firstFrame: 140
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylinder001
+        weight: 1
+      - path: Glasses
+        weight: 1
+      - path: Hat
+        weight: 1
+      - path: Spine
+        weight: 1
+      - path: Spine/ArmL00
+        weight: 1
+      - path: Spine/ArmL00/ArmL01
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL04
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL04/ArmL05
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL04/ArmL05/ArmL06
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL07
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL07/ArmL08
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL07/ArmL08/ArmL09
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL10
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL10/ArmL11
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL10/ArmL11/ArmL12
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL13
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL13/ArmL14
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL13/ArmL14/ArmL15
+        weight: 1
+      - path: Spine/ArmR00
+        weight: 1
+      - path: Spine/ArmR00/ArmR01
+        weight: 1
+      - path: Spine/ArmR00/ArmR01/ArmR02
+        weight: 1
+      - path: Spine/ArmR00/ArmR01/ArmR02/ArmR03
+        weight: 1
+      - path: Spine/ArmR00/ArmR01/ArmR02/ArmR03/ArmR04
+        weight: 1
+      - path: Spine/LegL00
+        weight: 1
+      - path: Spine/LegL00/LegL01
+        weight: 1
+      - path: Spine/LegL00/LegL01/LegL02
+        weight: 1
+      - path: Spine/LegL00/LegL01/LegL02/LegL03
+        weight: 1
+      - path: Spine/LegR00
+        weight: 1
+      - path: Spine/LegR00/LegR01
+        weight: 1
+      - path: Spine/LegR00/LegR01/LegR02
+        weight: 1
+      - path: Spine/LegR00/LegR01/LegR02/LegR03
+        weight: 1
+      - path: Spine/Stache
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Hit
+      takeName: Take 001
+      firstFrame: 220
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylinder001
+        weight: 1
+      - path: Glasses
+        weight: 1
+      - path: Hat
+        weight: 1
+      - path: Spine
+        weight: 1
+      - path: Spine/ArmL00
+        weight: 1
+      - path: Spine/ArmL00/ArmL01
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL04
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL04/ArmL05
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL04/ArmL05/ArmL06
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL07
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL07/ArmL08
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL07/ArmL08/ArmL09
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL10
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL10/ArmL11
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL10/ArmL11/ArmL12
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL13
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL13/ArmL14
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL13/ArmL14/ArmL15
+        weight: 1
+      - path: Spine/ArmR00
+        weight: 1
+      - path: Spine/ArmR00/ArmR01
+        weight: 1
+      - path: Spine/ArmR00/ArmR01/ArmR02
+        weight: 1
+      - path: Spine/ArmR00/ArmR01/ArmR02/ArmR03
+        weight: 1
+      - path: Spine/ArmR00/ArmR01/ArmR02/ArmR03/ArmR04
+        weight: 1
+      - path: Spine/LegL00
+        weight: 1
+      - path: Spine/LegL00/LegL01
+        weight: 1
+      - path: Spine/LegL00/LegL01/LegL02
+        weight: 1
+      - path: Spine/LegL00/LegL01/LegL02/LegL03
+        weight: 1
+      - path: Spine/LegR00
+        weight: 1
+      - path: Spine/LegR00/LegR01
+        weight: 1
+      - path: Spine/LegR00/LegR01/LegR02
+        weight: 1
+      - path: Spine/LegR00/LegR01/LegR02/LegR03
+        weight: 1
+      - path: Spine/Stache
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Die
+      takeName: Take 001
+      firstFrame: 240
+      lastFrame: 280
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylinder001
+        weight: 1
+      - path: Glasses
+        weight: 1
+      - path: Hat
+        weight: 1
+      - path: Spine
+        weight: 1
+      - path: Spine/ArmL00
+        weight: 1
+      - path: Spine/ArmL00/ArmL01
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL04
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL04/ArmL05
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL04/ArmL05/ArmL06
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL07
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL07/ArmL08
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL07/ArmL08/ArmL09
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL10
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL10/ArmL11
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL10/ArmL11/ArmL12
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL13
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL13/ArmL14
+        weight: 1
+      - path: Spine/ArmL00/ArmL01/ArmL02/ArmL03/ArmL13/ArmL14/ArmL15
+        weight: 1
+      - path: Spine/ArmR00
+        weight: 1
+      - path: Spine/ArmR00/ArmR01
+        weight: 1
+      - path: Spine/ArmR00/ArmR01/ArmR02
+        weight: 1
+      - path: Spine/ArmR00/ArmR01/ArmR02/ArmR03
+        weight: 1
+      - path: Spine/ArmR00/ArmR01/ArmR02/ArmR03/ArmR04
+        weight: 1
+      - path: Spine/LegL00
+        weight: 1
+      - path: Spine/LegL00/LegL01
+        weight: 1
+      - path: Spine/LegL00/LegL01/LegL02
+        weight: 1
+      - path: Spine/LegL00/LegL01/LegL02/LegL03
+        weight: 1
+      - path: Spine/LegR00
+        weight: 1
+      - path: Spine/LegR00/LegR01
+        weight: 1
+      - path: Spine/LegR00/LegR01/LegR02
+        weight: 1
+      - path: Spine/LegR00/LegR01/LegR02/LegR03
+        weight: 1
+      - path: Spine/Stache
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,223 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &161220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 476646}
+  - 33: {fileID: 3382840}
+  - 23: {fileID: 2399962}
+  - 65: {fileID: 6547014}
+  - 114: {fileID: 11493238}
+  - 114: {fileID: 11451690}
+  m_Layer: 0
+  m_Name: floor20x10
+  m_TagString: floor
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &476646
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 161220}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!23 &2399962
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 161220}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3382840
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 161220}
+  m_Mesh: {fileID: 0}
+--- !u!65 &6547014
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 161220}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &11451690
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 161220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caf1489c87fadff46a4175d497d88b9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  availibleGameObjects:
+  - {fileID: 152550, guid: 138bcfa31a081ad43b35d125ac31d493, type: 2}
+  - {fileID: 122152, guid: b7f5e37ab1b058b4d9fb3d4d53274710, type: 2}
+  - {fileID: 167412, guid: 69a68a6ba8afa9f41b1ea99d7b4ea49f, type: 2}
+  - {fileID: 139190, guid: a6a44e7323e23874bba9cfa4a45dd785, type: 2}
+  - {fileID: 155330, guid: baf96c9efbd87b4489d69bc830075c4b, type: 2}
+  - {fileID: 162938, guid: aa0e19d4309f8864a88f928732addcbd, type: 2}
+  - {fileID: 178052, guid: 6161045a74414ad4b90ebe415f80b401, type: 2}
+  - {fileID: 157822, guid: c866df46e55ea184a8bd482b0976d8ba, type: 2}
+  availibleEnemies:
+  - {fileID: 147796, guid: 7548934f1494d1048834a38e6fa7c8b3, type: 2}
+  - {fileID: 173438, guid: b29d952e93b932e4baa457cef6414d57, type: 2}
+  - {fileID: 136936, guid: e5be4094f2f78c74490630c1bd1b2b58, type: 2}
+  - {fileID: 196408, guid: e8bc59aeececb4f48bcecdc9bf29debc, type: 2}
+  - {fileID: 102328, guid: 8b46c142538219a4fb9b230cda701247, type: 2}
+  takenSpots: []
+  text: {fileID: 0}
+  amountOfItems: 25
+  amountOfEnemies: 2
+  SEED: 0
+--- !u!114 &11493238
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 161220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe44f7ab04ea023458c6963a6e4ae589, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xSize: 20
+  zSize: 10
+  floorVerts: []
+  waterVerts: []
+  doors: []
+  floorObject: {fileID: 0}
+  player: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: availibleEnemies.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availibleGameObjects.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: xSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: amountOfItems
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availibleGameObjects.Array.data[7]
+      value: 
+      objectReference: {fileID: 157822, guid: c866df46e55ea184a8bd482b0976d8ba, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availibleGameObjects.Array.data[6]
+      value: 
+      objectReference: {fileID: 178052, guid: 6161045a74414ad4b90ebe415f80b401, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availibleGameObjects.Array.data[5]
+      value: 
+      objectReference: {fileID: 162938, guid: aa0e19d4309f8864a88f928732addcbd, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availibleGameObjects.Array.data[4]
+      value: 
+      objectReference: {fileID: 155330, guid: baf96c9efbd87b4489d69bc830075c4b, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availibleGameObjects.Array.data[3]
+      value: 
+      objectReference: {fileID: 139190, guid: a6a44e7323e23874bba9cfa4a45dd785, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availibleGameObjects.Array.data[2]
+      value: 
+      objectReference: {fileID: 167412, guid: 69a68a6ba8afa9f41b1ea99d7b4ea49f, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availibleGameObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 122152, guid: b7f5e37ab1b058b4d9fb3d4d53274710, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availibleGameObjects.Array.data[0]
+      value: 
+      objectReference: {fileID: 152550, guid: 138bcfa31a081ad43b35d125ac31d493, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availibleEnemies.Array.data[1]
+      value: 
+      objectReference: {fileID: 112290, guid: 80ef37cc6b4200f46b68fbb8b34a3bfc, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availibleEnemies.Array.data[2]
+      value: 
+      objectReference: {fileID: 112290, guid: 80ef37cc6b4200f46b68fbb8b34a3bfc, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availibleEnemies.Array.data[3]
+      value: 
+      objectReference: {fileID: 112290, guid: 80ef37cc6b4200f46b68fbb8b34a3bfc, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availibleEnemies.Array.data[4]
+      value: 
+      objectReference: {fileID: 112290, guid: 80ef37cc6b4200f46b68fbb8b34a3bfc, type: 2}
+    - target: {fileID: 0}
+      propertyPath: amountOfEnemies
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availibleEnemies.Array.data[0]
+      value: 
+      objectReference: {fileID: 112290, guid: 80ef37cc6b4200f46b68fbb8b34a3bfc, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 161220}
+  m_IsPrefabParent: 1

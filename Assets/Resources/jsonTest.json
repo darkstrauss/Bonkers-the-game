@@ -1,0 +1,383 @@
+{
+    "Horizontal": [
+        {
+            "id": 0,
+            "pos": [
+                123,
+                456,
+                789,
+                321,
+                654,
+                987
+            ]
+        },
+        {
+            "id": 1,
+            "AttackStats":{
+                "name":"Horizontal",
+                "comboM": 1,
+                "dmg": 10,
+                "effect": "none"
+            }
+        }
+    ],
+    "Vertical": [
+        {
+            "id": 0,
+            "pos": [
+                147,
+                741,
+                258,
+                852,
+                369,
+                963
+            ]
+        },
+        {
+            "id": 1,
+            "AttackStats": {
+                "name": "Vertical",
+                "comboM": 1,
+                "dmg": 15,
+                "effect": "none"
+            }
+        }
+    ],
+    "Diagonal": [
+        {
+            "id": 0,
+            "pos": [
+                159,
+                951,
+                357,
+                753
+            ]
+        },
+        {
+            "id": 1,
+            "AttackStats": {
+                "name":"Diagonal",
+                "comboM": 2,
+                "dmg": 20,
+                "effect": "none"
+            }
+        }
+    ],
+    "Jab":[
+        {
+            "id":0,
+            "pos":[
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+           ] 
+        },
+        {
+            "id":1,
+            "AttackStats":{
+                "name":"Temp",
+                "comboM":1,
+                "dmg":1,
+                "effect":"none"
+            }
+        }
+    ],
+	"Quick Punch":[
+        {
+            "id":0,
+            "pos":[
+                15,
+                26,
+				48,
+				59,
+				51,
+				62,
+				84,
+				95
+           ] 
+        },
+        {
+            "id":1,
+            "AttackStats":{
+                "name":"Quick Punch",
+                "comboM":1,
+                "dmg":5,
+                "effect":"none"
+            }
+        }
+    ],
+	"Hook":[
+        {
+            "id":0,
+            "pos":[
+                785,
+                896,
+				452,
+				563,
+				587,
+				698,
+				254,
+				365
+           ] 
+        },
+        {
+            "id":1,
+            "AttackStats":{
+                "name":"Hook",
+                "comboM":1,
+                "dmg":7,
+                "effect":"Slow enemy for 20 seconds"
+            }
+        }
+    ],
+	"One-Two Punch":[
+        {
+            "id":0,
+            "pos":[
+                759,
+                426,
+				957,
+				624
+           ] 
+        },
+        {
+            "id":1,
+            "AttackStats":{
+                "name":"One-Two Punch",
+                "comboM":1,
+                "dmg":13,
+                "effect":"none"
+            }
+        }
+    ],
+	"Wombo Combo":[
+        {
+            "id":0,
+            "pos":[
+                751,
+                862,
+				157,
+				268
+           ] 
+        },
+        {
+            "id":1,
+            "AttackStats":{
+                "name":"Wombo Combo",
+                "comboM":1,
+                "dmg":7,
+                "effect":"Speed up attacks for 20 seconds"
+            }
+        }
+    ],
+	"9":[
+        {
+            "id":0,
+            "pos":[
+                7458,
+                8569,
+				4125,
+				5236,
+				8547,
+				9658,
+				5214,
+				6325
+           ] 
+        },
+        {
+            "id":1,
+            "AttackStats":{
+                "name":"9",
+                "comboM":1,
+                "dmg":5,
+                "effect":"if used in combo, add 15 to base damage"
+            }
+        }
+    ],
+	"10":[
+        {
+            "id":0,
+            "pos":[
+                8745,
+                9856,
+				5412,
+				6523,
+				5478,
+				6589,
+				2145,
+				3256
+           ] 
+        },
+        {
+            "id":1,
+            "AttackStats":{
+                "name":"10",
+                "comboM":1,
+                "dmg":5,
+                "effect":"increase all damage by 5 for 20 seconds"
+            }
+        }
+    ],
+	"11":[
+        {
+            "id":0,
+            "pos":[
+                475,
+                586,
+				142,
+				253,
+				574,
+				685,
+				241,
+				352
+           ] 
+        },
+        {
+            "id":1,
+            "AttackStats":{
+                "name":"11",
+                "comboM":1,
+                "dmg":5,
+                "effect":"decrease enemy attack for 20 seconds"
+            }
+        }
+    ],
+	"12":[
+        {
+            "id":0,
+            "pos":[
+                8741,
+                9852,
+				1478,
+				2589
+           ] 
+        },
+        {
+            "id":1,
+            "AttackStats":{
+                "name":"12",
+                "comboM":1,
+                "dmg":5,
+                "effect":"heal 5 damage from your character"
+            }
+        }
+    ],
+	"13":[
+        {
+            "id":0,
+            "pos":[
+                7895321,
+                1235987
+           ] 
+        },
+        {
+            "id":1,
+            "AttackStats":{
+                "name":"13",
+                "comboM":1,
+                "dmg":10,
+                "effect":"Add all damage done by previous attacks in the same combo to the base damage of this attack"
+            }
+        }
+    ],
+	"14":[
+        {
+            "id":0,
+            "pos":[
+                98423,
+                32489
+           ] 
+        },
+        {
+            "id":1,
+            "AttackStats":{
+                "name":"14",
+                "comboM":1,
+                "dmg":15,
+                "effect":""
+            }
+        }
+    ],
+	"15":[
+        {
+            "id":0,
+            "pos":[
+                987456321,
+                123654789
+           ] 
+        },
+        {
+            "id":1,
+            "AttackStats":{
+                "name":"15",
+                "comboM":1,
+                "dmg":20,
+                "effect":"Decrease base attack of following attacks by 5 for 20 seconds. (good as finisher)"
+            }
+        }
+    ],
+	"16":[
+        {
+            "id":0,
+            "pos":[
+                89512,
+                21598
+           ] 
+        },
+        {
+            "id":1,
+            "AttackStats":{
+                "name":"16",
+                "comboM":1,
+                "dmg":10,
+                "effect":"Base attack increased by 5 if players health is below 30 percent"
+            }
+        }
+    ],
+    // Copy this Strike below to add more options
+    "Temp":[
+        {
+            "id":0,
+            "pos":[
+                0,
+                0
+           ] 
+        },
+        {
+            "id":1,
+            "AttackStats":{
+                "name":"Temp",
+                "comboM":1,
+                "dmg":1,
+                "effect":"none"
+            }
+        }
+    ],
+    // Last Strike Option 
+    "LastSpiral":[
+        {
+            "id":0,
+            "pos":[
+                123698745,
+                369874125,
+                987412365,
+                741236985
+           ] 
+        },
+        {
+            "id":1,
+            "AttackStats":{
+                "name":"LastSpiral",
+                "comboM":1,
+                "dmg":1000000,
+                "effect":"none"
+            }
+        }
+    ] 
+}

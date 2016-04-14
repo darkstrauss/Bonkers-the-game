@@ -1,0 +1,365 @@
+fileFormatVersion: 2
+guid: 3a1f37cd5b591f741935d9f810dc80dd
+timeCreated: 1453719147
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Bottomjaw
+    100002: Bottommouth
+    100004: Bottomspine
+    100006: Eyepivotleft
+    100008: Eyepivotright
+    100010: Irisleft
+    100012: Irisright
+    100014: //RootNode
+    100016: Jellu
+    100018: Spine
+    100020: Topjaw
+    100022: Topmouth
+    100024: Topspine
+    400000: Bottomjaw
+    400002: Bottommouth
+    400004: Bottomspine
+    400006: Eyepivotleft
+    400008: Eyepivotright
+    400010: Irisleft
+    400012: Irisright
+    400014: //RootNode
+    400016: Jellu
+    400018: Spine
+    400020: Topjaw
+    400022: Topmouth
+    400024: Topspine
+    4300000: Jellu
+    7400000: Idle
+    7400002: Attack1
+    7400004: Hit
+    7400006: Die
+    7400008: Walking
+    9500000: //RootNode
+    13700000: Jellu
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Jellu
+        weight: 1
+      - path: Spine
+        weight: 1
+      - path: Spine/Bottomspine
+        weight: 1
+      - path: Spine/Bottomspine/Bottomjaw
+        weight: 1
+      - path: Spine/Bottomspine/Bottomjaw/Bottommouth
+        weight: 1
+      - path: Spine/Topspine
+        weight: 1
+      - path: Spine/Topspine/Eyepivotleft
+        weight: 1
+      - path: Spine/Topspine/Eyepivotleft/Irisleft
+        weight: 1
+      - path: Spine/Topspine/Eyepivotright
+        weight: 1
+      - path: Spine/Topspine/Eyepivotright/Irisright
+        weight: 1
+      - path: Spine/Topspine/Topjaw
+        weight: 1
+      - path: Spine/Topspine/Topjaw/Topmouth
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack1
+      takeName: Take 001
+      firstFrame: 90
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Jellu
+        weight: 1
+      - path: Spine
+        weight: 1
+      - path: Spine/Bottomspine
+        weight: 1
+      - path: Spine/Bottomspine/Bottomjaw
+        weight: 1
+      - path: Spine/Bottomspine/Bottomjaw/Bottommouth
+        weight: 1
+      - path: Spine/Topspine
+        weight: 1
+      - path: Spine/Topspine/Eyepivotleft
+        weight: 1
+      - path: Spine/Topspine/Eyepivotleft/Irisleft
+        weight: 1
+      - path: Spine/Topspine/Eyepivotright
+        weight: 1
+      - path: Spine/Topspine/Eyepivotright/Irisright
+        weight: 1
+      - path: Spine/Topspine/Topjaw
+        weight: 1
+      - path: Spine/Topspine/Topjaw/Topmouth
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Hit
+      takeName: Take 001
+      firstFrame: 190
+      lastFrame: 210
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Jellu
+        weight: 1
+      - path: Spine
+        weight: 1
+      - path: Spine/Bottomspine
+        weight: 1
+      - path: Spine/Bottomspine/Bottomjaw
+        weight: 1
+      - path: Spine/Bottomspine/Bottomjaw/Bottommouth
+        weight: 1
+      - path: Spine/Topspine
+        weight: 1
+      - path: Spine/Topspine/Eyepivotleft
+        weight: 1
+      - path: Spine/Topspine/Eyepivotleft/Irisleft
+        weight: 1
+      - path: Spine/Topspine/Eyepivotright
+        weight: 1
+      - path: Spine/Topspine/Eyepivotright/Irisright
+        weight: 1
+      - path: Spine/Topspine/Topjaw
+        weight: 1
+      - path: Spine/Topspine/Topjaw/Topmouth
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Die
+      takeName: Take 001
+      firstFrame: 210
+      lastFrame: 230
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Jellu
+        weight: 1
+      - path: Spine
+        weight: 1
+      - path: Spine/Bottomspine
+        weight: 1
+      - path: Spine/Bottomspine/Bottomjaw
+        weight: 1
+      - path: Spine/Bottomspine/Bottomjaw/Bottommouth
+        weight: 1
+      - path: Spine/Topspine
+        weight: 1
+      - path: Spine/Topspine/Eyepivotleft
+        weight: 1
+      - path: Spine/Topspine/Eyepivotleft/Irisleft
+        weight: 1
+      - path: Spine/Topspine/Eyepivotright
+        weight: 1
+      - path: Spine/Topspine/Eyepivotright/Irisright
+        weight: 1
+      - path: Spine/Topspine/Topjaw
+        weight: 1
+      - path: Spine/Topspine/Topjaw/Topmouth
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walking
+      takeName: Take 001
+      firstFrame: 240
+      lastFrame: 260
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Jellu
+        weight: 1
+      - path: Spine
+        weight: 1
+      - path: Spine/Bottomspine
+        weight: 1
+      - path: Spine/Bottomspine/Bottomjaw
+        weight: 1
+      - path: Spine/Bottomspine/Bottomjaw/Bottommouth
+        weight: 1
+      - path: Spine/Topspine
+        weight: 1
+      - path: Spine/Topspine/Eyepivotleft
+        weight: 1
+      - path: Spine/Topspine/Eyepivotleft/Irisleft
+        weight: 1
+      - path: Spine/Topspine/Eyepivotright
+        weight: 1
+      - path: Spine/Topspine/Eyepivotright/Irisright
+        weight: 1
+      - path: Spine/Topspine/Topjaw
+        weight: 1
+      - path: Spine/Topspine/Topjaw/Topmouth
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
